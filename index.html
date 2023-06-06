@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/icons8-кондитерские-изделия-50.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@1,800&family=Poppins:wght@300&family=Roboto+Slab:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <title>Солодка скринька</title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <!-- <a id="button-to-upp"></a> -->
+      <img src="./assets/img/leaf.png" class="leaf" />
+      <img src="./assets/img/berry (1).png" class="berry1" />
+      <img src="./assets/img/berry (2).png" class="berry2" />
+      <img src="./assets/img/berry3.png" class="berry3" />
+      <header id="header">
+        <div class="navigation">
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">
+              Меню
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#catalog">До каталогу</a>
+              <a href="/aboutus/index.html">Про мене</a>
+              <a href="#orderingg">Замовити за фотографією</a>
+              <a href="#galery">Наша галерея</a>
+              <a href="#footer">Зробити замовлення</a>
+              <a href="login.php">Увійти</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="name">
+            <p>Солодка скринька</p>
+          </div>
+          <div class="adress">
+            <div class="street">
+              <p>м. Тернопіль вул. Анатолія Живова, 30</p>
+            </div>
+            <div class="phone">
+              <p class="number">(+380) 73 071-33-56</p>
+              <p>Працюємо з 9:00 до 18:00</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="main">
+        <div class="container">
+          <div class="header">
+            <p class="taste">Найсмачніші</p>
+            <h1>Тістечка i кексики від 50грн/шт з доставкою по Тернополю</h1>
+            <p class="inf-order">
+              Приготуємо за 3 години в день замовлення. Доставка на авто в
+              холодильнику
+            </p>
+            <div class="nav-but">
+              <button class="to-catalog">
+                <a href="#catalog">Перейти в каталог</a>
+              </button>
+              <p>9 різноманітних видів на вибір</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main id="catalog" class="catalog-goods">
+      <section class="content">
+        <img src="./assets/img/berry (3).png" class="berry4" />
+        <img src="./assets/img/leaf (1).png" class="leaf1" />
+        <img src="./assets/img/leaf (2).png" class="leaf2" />
+        <h1>Для будь-яких подій i дорогих вам людей</h1>
+        <div class="flex-container">
+          <div class="cart 1">
+            <img src="./assets/img-cake/img.png" class="cake 1" />
+            <div class="inform">
+              <h3>Кремовий замок</h3>
+              <p>Ніжний крем будь-якого кольоу на вибір, вафельна основа.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 2">
+            <img src="./assets/img-cake/img (1).png" class="cake 2" />
+            <div class="inform">
+              <h3>Малиновий рай</h3>
+              <p>Повітряний крем, темна основа i ягода малини.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 3">
+            <img src="./assets/img-cake/img (2).png" class="cake 3" />
+            <div class="inform">
+              <h3>Фейєрверк</h3>
+              <p>Різнокольоровий крем, із бісквітною основою.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 4">
+            <img src="./assets/img-cake/img (3).png" class="cake 4" />
+            <div class="inform">
+              <h3>Шоколадний світ</h3>
+              <p>Горіхова стружка, ніжний крем i шоколадна основа.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 5">
+            <img src="./assets/img-cake/img (4).png" class="cake 5" />
+            <div class="inform">
+              <h3>Драконові сльози</h3>
+              <p>Ніжний крем будь-якого кольору на вибрі, вафельна основа.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 6">
+            <img src="./assets/img-cake/img (5).png" class="cake 6" />
+            <div class="inform">
+              <h3>Літня фантазія</h3>
+              <p>Прикраси у формі сердечок, для коханої людини.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <!-- </div> -->
+          <!-- <div class="carts 3"> -->
+          <div class="cart 7">
+            <img src="./assets/img-cake/img (6).png" class="cake 7" />
+            <div class="inform">
+              <h3>Мис божевілля</h3>
+              <p>Різнокольорова основа, стружка i ніжний крем.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 8">
+            <img src="./assets/img-cake/img (7).png" class="cake 8" />
+            <div class="inform">
+              <h3>Хмарна казка</h3>
+              <p>Світла основа, ніжний крем зі стружкою зверху.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+          <div class="cart 9">
+            <img src="./assets/img-cake/img (8).png" class="cake 9" />
+            <div class="inform">
+              <h3>Темний лицар</h3>
+              <p>Темна основа, ніжний крем i смачні кульки.</p>
+              <p class="price">50 &#8372;/шт</p>
+              <button id="to-order" class="to-order">
+                <a href="#footer">Замовити</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ordering">
+        <div class="container">
+          <div id="orderingg"></div>
+          <div class="how-to-order">
+            <p>Не знайшли те, що треба?</p>
+            <h1>
+              Приготуємо замовлення будь-якої складності по фото чи ескізу!
+            </h1>
+            <p>
+              Завантажте фотографію або ескіз тістечок і ми розрахуємо вартість
+              за 30 хвилин
+            </p>
+            <button class="to-load" id="btnOpen">Завантажити фотографію</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="modal-wind" id="modal">
+          <div class="form-popau">
+            <div class="wraper">
+              <span class="close">&times;</span>
+              <div class="pop-up">
+                <div class="container">
+                  <div class="header">
+                    <h1>Оберіть фотографію</h1>
+                    <p>і ми зробимо вам замовлення за нею</p>
+                  </div>
+                  <form
+                    action=""
+                    id="sub-ordering"
+                    method="POST"
+                    class="forms"
+                    enctype="multipart/form-data"
+                  >
+                    <input
+                      type="text"
+                      name="phone-num"
+                      class="phone-input"
+                      id="phone-input"
+                      required
+                      placeholder="&#128379;  Введіть ваш номер"
+                    />
+                    <!-- <input type="file" id="photo" name="load-photo" accept="image/png, image/jpg, image/gif, image/jpeg" multiple> -->
+                    <!-- <label for="photo" class="photo">
+                                        Завантажити фотографію -->
+                    <!-- <input type="file" class=" "id="photo" name="load-photo" accept="image/png, image/jpg, image/gif, image/jpeg" /> -->
+                    <!-- </label> -->
+                    <label for="photo" class="photo">
+                      Завантажити фотографію
+                      <input
+                        type="file"
+                        class="photo"
+                        id="photo"
+                        name="load-photo"
+                        accept="image/png, image/jpg, image/gif, image/jpeg"
+                      />
+                    </label>
+                    <!-- <label for="sub-submit" class="ssubmit">Відправити
+                                        <input type="submit" id="sub-submit"> -->
+                    <button type="submit" id="submit" class="ssubmit">
+                      Відправити
+                    </button>
+                    <!-- </label> -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+      </section>
+
+      <section id="galery">
+        <h1>Зробили більше 3.000 замовлень за 2 роки!</h1>
+        <p>Перегляньте фото реальних замовлень з нашого Instagram</p>
+        <div class="grid-container">
+          <img src="./assets/galery/photo.png" alt="" class="photo" />
+          <img src="./assets/galery/photo (1).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (2).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (3).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (4).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (5).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (6).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (7).png" alt="" class="photo" />
+          <img src="./assets/galery/photo (8).png" alt="" class="photo" />
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-wrap">
+        <div class="container">
+          <div class="leaff"></div>
+          <form id="subscription_form" class="form-sub" method="POST">
+            <div class="title">
+              <h1>Щоб зробити замовлення, вкажіть ваш телефон</h1>
+              <p>
+                Ми передзвонимо вам протягом 15 хвилин, щоби уточнити ваші
+                побажання
+              </p>
+            </div>
+            <div class="order">
+              <input
+                type="text"
+                name="phone"
+                class="inputing"
+                required
+                placeholder="&#128379;  Ваш номер телефону"
+              />
+              <button type="submit" id="submit" class="submit">Замовити</button>
+            </div>
+          </form>
+          <div class="accepting">
+            <input
+              type="checkbox"
+              class="custom-checkbox"
+              name="accept"
+              value="Yes"
+            />
+            <label for="accept"
+              >Нажимаючи на кнопку, ви погоджуєтесь з умовами обробки
+              персональних даних</label
+            ><br />
+          </div>
+        </div>
+        <div class="foot">
+          <div class="cont">
+            <div class="laws">
+              <a
+                href="https://helsinki.org.ua/articles/zhoda-na-obrobku-personalnykh-danykh-shcho-tse-i-navishcho/"
+                ><h6>Згода на обробку даних</h6></a
+              >
+              <a href="https://www.instagram.com/iryna.3356/"
+                ><h6>Служба підтримки</h6></a
+              >
+              <a href="https://mind.ua/cookie"
+                ><h6>Політика конфіденційності</h6></a
+              >
+            </div>
+          </div>
+          <h6 class="our-name">
+            &#169;iryna.3356 2220 | Тернопільські тістечка
+          </h6>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
