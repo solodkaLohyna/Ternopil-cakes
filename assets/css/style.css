@@ -1183,18 +1183,19 @@ button:hover {
     background-size: cover;
     height: 91.2vh;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 .footer-wrap {
     /* display: flex;
     justify-content: center; */
-
+    width: 1180px;
     margin: 0 auto;
 }
 
 #footer .container {
     /* position: relative; */
-    width: 1180px;
-    height: 394px;
+    height: 394px; 
     background: #fff;
     /* top: 300px; */
     /* left: 370px; */
@@ -1307,8 +1308,9 @@ h6 {
     width: 605px;
     height: 58px;
     justify-content: center;
-    margin-top: 350px;
-    margin-left: 66vh;
+    margin: 0 auto;
+    /* margin-top: 350px;
+    margin-left: 66vh; */
 }
 
 .our-name {
